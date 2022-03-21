@@ -35,7 +35,6 @@ print('split #1:', defaultString.partition('Py'))
 print('split #1:', defaultString.partition('Pyádfasdf')) # trường hợp tìm k thấy chuỗi sep
 
 # EXERCISE
-
 s = 'aaaAAaaaooaaneu mot Ngay naO Doaaaaaaa'
 a = s.lower().replace('aaaaaaa', '').replace('aooaa', '').title()
 print(a)

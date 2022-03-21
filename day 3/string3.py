@@ -25,7 +25,7 @@ print('String with title:', normalStr.title())
 # ---------------------------------------------------------------------------------------------------
 # Các phương thức định dạng
 # ---------------------------------------------------------------------------------------------------
-
+ 
 # center: căn giữa theo chiều rộng đã quy định <chuỗi>.center(width, [fillchar] -> k có thì mặc định là khoảng trắng)
 print('String with center:', normalStr.center(30,'*'))
 
@@ -44,3 +44,6 @@ print('String with encode', normalStr.encode())
 
 # join: trả về chuỗi bằng cách nối các phần tử trong iterable bằng ký tự nối.
 
+print('String with join: ', ' and '.join(['adding text', 'text 2', 'text3']))
+
+normalStr.partition()
